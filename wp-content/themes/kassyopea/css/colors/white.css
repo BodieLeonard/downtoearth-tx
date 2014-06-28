@@ -1,0 +1,16 @@
+/*
+  Color: White
+*/
+
+#header, #home-section, #home-section .inner, #testimonial-slider, .special-products, #footer, #footer .inner, #copyright { background:#fff; }
+#home-section, #home-section .inner { background-image:none !important; }
+#home-section .inner h1, #home-section .inner h2, #home-section .inner h3, #home-section .inner h4, #home-section .inner h5, #home-section .inner h6,
+#home-section .inner p, #home-section .inner il, #home-section .inner { color:#535252; }
+#home-section a, #copyright a { color:#2c2b2b; }
+#home-section .shadow { display:none; }
+#nav, #nav ul.level-1 { background:#ededed; }
+#testimonial-slider .inner { border-top:1px solid #c9c6c6; border-bottom:1px solid #c9c6c6; }
+#quick-contact-form input, #quick-contact-form textarea { background-color:#e0dede; }
+#footer ul li { border:0; }
+#copyright p { color:#7e7979; }
+.border-header { background:none; border:none; height:0px; }

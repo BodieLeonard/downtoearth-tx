@@ -1,0 +1,6 @@
+newsletter-input:#dbe544
+newsletter-submit:#5b6002
+color-links:#99a114               
+color-links-hover: #b9c31c 
+color-evid:#99a114        
+bg-copyright: #828a01

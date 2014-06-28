@@ -1,0 +1,724 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kassyopea 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-24 16:23+0100\n"
+"PO-Revision-Date: 2011-01-24 16:23+0100\n"
+"Last-Translator: nando pappalardo <nando.pappalardo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "error"
+msgstr ""
+
+#: 404.php:17
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid "We are sorry but the page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:21
+msgid "You could retourn to the "
+msgstr ""
+
+#: 404.php:21
+msgid "or search using the search box below"
+msgstr ""
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:30
+msgid "no comments"
+msgstr ""
+
+#: comments.php:30
+msgid "1 <span>comment</span>"
+msgstr ""
+
+#: comments.php:30
+msgid "% <span>comments</span>"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:54
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:55
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:82
+msgid "No trackback or pingback available for this article"
+msgstr ""
+
+#: functions.php:115
+msgid "Navigation"
+msgstr ""
+
+#: functions.php:190
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: functions.php:195
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:204
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:204
+#: functions.php:226
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:226
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:247
+msgid "Name"
+msgstr ""
+
+#: functions.php:249
+msgid "Email"
+msgstr ""
+
+#: functions.php:251
+msgid "Website"
+msgstr ""
+
+#: functions.php:259
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions.php:260
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: functions.php:265
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:266
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php:267
+msgid "Cancel reply"
+msgstr ""
+
+#: functions.php:268
+msgid "Post Comment"
+msgstr ""
+
+#: header.php:19
+#, php-format
+msgid "%s RSS Feed"
+msgstr ""
+
+#: header.php:20
+#, php-format
+msgid "%s Atom Feed"
+msgstr ""
+
+#: loop-news_footer.php:5
+msgid "News"
+msgstr ""
+
+#: loop-portfolio_3cols.php:11
+#: loop-portfolio_bigimage.php:11
+msgid "Pages:"
+msgstr ""
+
+#: loop-portfolio_3cols.php:46
+#: loop-portfolio_bigimage.php:38
+msgid "View Project"
+msgstr ""
+
+#: loop-portfolio_3cols.php:56
+#: loop-portfolio_bigimage.php:49
+#: loop.php:68
+msgid "Next &raquo;"
+msgstr ""
+
+#: loop-portfolio_3cols.php:57
+#: loop-portfolio_bigimage.php:50
+#: loop.php:69
+msgid "&laquo; Back"
+msgstr ""
+
+#: loop.php:8
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr ""
+
+#: loop.php:10
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: loop.php:12
+#, php-format
+msgid "Archive for %s | Daily archive page"
+msgstr ""
+
+#: loop.php:12
+msgid "F jS, Y"
+msgstr ""
+
+#: loop.php:14
+#, php-format
+msgid "Archive for %s | Monthly archive page"
+msgstr ""
+
+#: loop.php:14
+msgid "F Y"
+msgstr ""
+
+#: loop.php:16
+#, php-format
+msgid "Archive for %s | Yearly archive page"
+msgstr ""
+
+#: loop.php:16
+msgid "Y"
+msgstr ""
+
+#: loop.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: loop.php:20
+msgid "Author Archive"
+msgstr ""
+
+#: loop.php:22
+msgid "Blog Archives"
+msgstr ""
+
+#: loop.php:49
+msgid "posted by"
+msgstr ""
+
+#: loop.php:57
+msgid "|| Read more"
+msgstr ""
+
+#: sidebar-about.php:14
+#: sidebar-blog.php:14
+#: sidebar-page.php:14
+msgid "Categories"
+msgstr ""
+
+#: sidebar-about.php:24
+#: sidebar-blog.php:24
+#: sidebar-page.php:24
+msgid "Archives"
+msgstr ""
+
+#: sidebar-home.php:21
+msgid "|| Read news"
+msgstr ""
+
+#: widgets.php:23
+msgid "Add a slider testimonial on your widget which link a category to show the contents."
+msgstr ""
+
+#: admin-options/admin.php:15
+#: admin-options/admin.php:52
+#: admin-options/admin.php:67
+#: admin-options/admin.php:137
+#: admin-options/admin.php:162
+msgid "Choose a category"
+msgstr ""
+
+#: admin-options/admin.php:21
+msgid "General Settings"
+msgstr ""
+
+#: admin-options/admin.php:24
+#: admin-options/admin.php:304
+msgid "General"
+msgstr ""
+
+#: admin-options/admin.php:28
+#: admin-options/admin.php:308
+msgid "Colour Scheme"
+msgstr ""
+
+#: admin-options/admin.php:29
+msgid "Select the colour scheme for the theme."
+msgstr ""
+
+#: admin-options/admin.php:35
+msgid "Logo URL"
+msgstr ""
+
+#: admin-options/admin.php:36
+msgid "Enter the URL to your logo image"
+msgstr ""
+
+#: admin-options/admin.php:41
+msgid "Custom Favicon"
+msgstr ""
+
+#: admin-options/admin.php:42
+msgid "A favicon is a 16x16 pixel icon that represents your site; paste the URL to a .ico image that you want to use as the image"
+msgstr ""
+
+#: admin-options/admin.php:47
+msgid "Category Flash News"
+msgstr ""
+
+#: admin-options/admin.php:48
+msgid "Select the category for posts to show on the flash news, above the footer."
+msgstr ""
+
+#: admin-options/admin.php:54
+msgid "Items for Flash News"
+msgstr ""
+
+#: admin-options/admin.php:55
+msgid "Select how many items you want to show on the flash show cycle."
+msgstr ""
+
+#: admin-options/admin.php:62
+msgid "News below the slider"
+msgstr ""
+
+#: admin-options/admin.php:63
+msgid "Select the category for the post will appear below some sliders."
+msgstr ""
+
+#: admin-options/admin.php:69
+msgid "Items for News below the slider"
+msgstr ""
+
+#: admin-options/admin.php:70
+msgid "Select how many items you want to show on the news will appear below some sliders."
+msgstr ""
+
+#: admin-options/admin.php:84
+msgid "Homepage"
+msgstr ""
+
+#: admin-options/admin.php:88
+msgid "Show Sidebar"
+msgstr ""
+
+#: admin-options/admin.php:89
+msgid "Say if you want to show the sidebar on the Home Page"
+msgstr ""
+
+#: admin-options/admin.php:94
+msgid "Text Under Sidebar"
+msgstr ""
+
+#: admin-options/admin.php:95
+msgid "Write what you want to show under the content and sidebar, on home page."
+msgstr ""
+
+#: admin-options/admin.php:107
+msgid "Slider"
+msgstr ""
+
+#: admin-options/admin.php:111
+msgid "Show"
+msgstr ""
+
+#: admin-options/admin.php:112
+msgid "Say if you want to show the slider on the Home Page"
+msgstr ""
+
+#: admin-options/admin.php:117
+msgid "Slider type"
+msgstr ""
+
+#: admin-options/admin.php:118
+msgid "Select the slider type that you want on home page."
+msgstr ""
+
+#: admin-options/admin.php:122
+msgid "Choose a slider"
+msgstr ""
+
+#: admin-options/admin.php:124
+#: admin-options/admin.php:164
+#: admin-options/admin.php:196
+msgid "Items"
+msgstr ""
+
+#: admin-options/admin.php:125
+msgid "Select how many items you want to show.<br /> (PS: on 'Arrow Fade Slider', are raccomanded 5 items, for a better visualization)"
+msgstr ""
+
+#: admin-options/admin.php:132
+#: admin-options/admin.php:157
+msgid "Category Posts"
+msgstr ""
+
+#: admin-options/admin.php:133
+msgid "Select the category for posts to show on the slider."
+msgstr ""
+
+#: admin-options/admin.php:146
+msgid "Portfolio"
+msgstr ""
+
+#: admin-options/admin.php:150
+msgid "Portfolio Type"
+msgstr ""
+
+#: admin-options/admin.php:151
+msgid "Say the layout for your portfolio page."
+msgstr ""
+
+#: admin-options/admin.php:154
+msgid "3 Columns"
+msgstr ""
+
+#: admin-options/admin.php:154
+msgid "With Slider"
+msgstr ""
+
+#: admin-options/admin.php:154
+msgid "Big Image"
+msgstr ""
+
+#: admin-options/admin.php:158
+msgid "Specific what category you want to assign to the posts of portfolio."
+msgstr ""
+
+#: admin-options/admin.php:165
+msgid "Select how many items you want to show."
+msgstr ""
+
+#: admin-options/admin.php:172
+msgid "Lightbox Skin"
+msgstr ""
+
+#: admin-options/admin.php:173
+msgid "Specific what skin you want for videos and images lightbox."
+msgstr ""
+
+#: admin-options/admin.php:192
+msgid "Blog Settings"
+msgstr ""
+
+#: admin-options/admin.php:197
+msgid "Select how many items you want to show on Blog Page"
+msgstr ""
+
+#: admin-options/admin.php:204
+msgid "Exclude categories"
+msgstr ""
+
+#: admin-options/admin.php:205
+msgid "Select witch categories you want exlude from blog."
+msgstr ""
+
+#: admin-options/admin.php:209
+msgid "Blog Page"
+msgstr ""
+
+#: admin-options/admin.php:209
+msgid "List cat. sidebar"
+msgstr ""
+
+#: admin-options/admin.php:219
+msgid "Info Contact"
+msgstr ""
+
+#: admin-options/admin.php:223
+msgid "Telephone"
+msgstr ""
+
+#: admin-options/admin.php:224
+msgid "Enter your telephone number, showed near 'CALL US'"
+msgstr ""
+
+#: admin-options/admin.php:229
+msgid "Fax"
+msgstr ""
+
+#: admin-options/admin.php:230
+msgid "Enter your fax number, showed near 'FAX US'"
+msgstr ""
+
+#: admin-options/admin.php:235
+msgid "Socials icons"
+msgstr ""
+
+#: admin-options/admin.php:236
+msgid "Insert into this textarea the shortcode to display the socials icons.<br />You can use this format for show the icons: [social type=\"facebook|twitter|ecc...\" href=\"the_url_of_your_social_page\"]. You can find more information of this shortcode, on help docs of this theme."
+msgstr ""
+
+#: admin-options/admin.php:241
+msgid "Show Google Map"
+msgstr ""
+
+#: admin-options/admin.php:242
+msgid "Say if you want the google map in the contact page."
+msgstr ""
+
+#: admin-options/admin.php:247
+msgid "Google Map Code"
+msgstr ""
+
+#: admin-options/admin.php:248
+msgid "Insert here the google map code, if you want to show it."
+msgstr ""
+
+#: admin-options/admin.php:253
+msgid "Address Box"
+msgstr ""
+
+#: admin-options/admin.php:254
+msgid "Write your information for address box, in alternative to google map. (HTML is allowed)"
+msgstr ""
+
+#: admin-options/admin.php:267
+#: admin-options/admin.php:405
+msgid "Footer"
+msgstr ""
+
+#: admin-options/admin.php:271
+msgid "Footer Type"
+msgstr ""
+
+#: admin-options/admin.php:272
+msgid "Select the footer type for the theme"
+msgstr ""
+
+#: admin-options/admin.php:278
+msgid "Footer copyright text"
+msgstr ""
+
+#: admin-options/admin.php:279
+msgid "Enter text used in the right side of the footer. It can be HTML"
+msgstr ""
+
+#: admin-options/admin.php:284
+msgid "Google Analytics Code"
+msgstr ""
+
+#: admin-options/admin.php:285
+msgid "You can paste your Google Analytics or other tracking code in this box. This will be automatically added to the footer."
+msgstr ""
+
+#: admin-options/admin.php:301
+msgid "Colors Settings"
+msgstr ""
+
+#: admin-options/admin.php:309
+msgid "Select the colour scheme for the theme. <br/> WARNING: if you want to change the color scheme and the color below this form too, you have to change this color scheme in first and then, after update, you can change single colors, in 'Colors' section."
+msgstr ""
+
+#: admin-options/admin.php:315
+msgid "Color Dropdown Menu"
+msgstr ""
+
+#: admin-options/admin.php:316
+msgid "Select the colour of dropdown menu navigation."
+msgstr ""
+
+#: admin-options/admin.php:319
+msgid "Black"
+msgstr ""
+
+#: admin-options/admin.php:319
+msgid "White"
+msgstr ""
+
+#: admin-options/admin.php:322
+msgid "Body content background color"
+msgstr ""
+
+#: admin-options/admin.php:323
+msgid "Select the background color of the main text content."
+msgstr ""
+
+#: admin-options/admin.php:328
+msgid "Color Text"
+msgstr ""
+
+#: admin-options/admin.php:329
+msgid "Select the colour of general text"
+msgstr ""
+
+#: admin-options/admin.php:334
+msgid "Color Links"
+msgstr ""
+
+#: admin-options/admin.php:335
+msgid "Select the colour all links."
+msgstr ""
+
+#: admin-options/admin.php:340
+msgid "Color Links Hover"
+msgstr ""
+
+#: admin-options/admin.php:341
+msgid "Select the colour of hover state of all links."
+msgstr ""
+
+#: admin-options/admin.php:355
+msgid "Color Nav Links"
+msgstr ""
+
+#: admin-options/admin.php:356
+msgid "Select the colour of navigation links."
+msgstr ""
+
+#: admin-options/admin.php:361
+msgid "Color Nav Links Hover"
+msgstr ""
+
+#: admin-options/admin.php:362
+msgid "Select the colour of hover state of navigation links."
+msgstr ""
+
+#: admin-options/admin.php:367
+msgid "Color Nav Links Descriptions"
+msgstr ""
+
+#: admin-options/admin.php:368
+msgid "Select the colour of text description, under each item of navigation."
+msgstr ""
+
+#: admin-options/admin.php:373
+msgid "Border left of navigation item"
+msgstr ""
+
+#: admin-options/admin.php:374
+msgid "Select the border left color, of each item of main navigation."
+msgstr ""
+
+#: admin-options/admin.php:379
+msgid "Border right of navigation item"
+msgstr ""
+
+#: admin-options/admin.php:380
+msgid "Select the border right color, of each item of main navigation."
+msgstr ""
+
+#: admin-options/admin.php:390
+msgid "Sliders"
+msgstr ""
+
+#: admin-options/admin.php:394
+msgid "Color Active link of Arrow Fade Slider"
+msgstr ""
+
+#: admin-options/admin.php:395
+msgid "Select the active link color of 'Arrow Fade Slider', if you have selected it on 'Slider Options'."
+msgstr ""
+
+#: admin-options/admin.php:409
+msgid "Background Footer"
+msgstr ""
+
+#: admin-options/admin.php:410
+msgid "Select the background color of footer."
+msgstr ""
+
+#: admin-options/admin.php:415
+msgid "Background Copyright Section"
+msgstr ""
+
+#: admin-options/admin.php:416
+msgid "Select the background color of copyright zone."
+msgstr ""
+
+#: admin-options/admin.php:421
+msgid "Color Title Footer"
+msgstr ""
+
+#: admin-options/admin.php:422
+msgid "Select the title color, of each section of footer."
+msgstr ""
+
+#: admin-options/admin.php:427
+msgid "Color Text Footer"
+msgstr ""
+
+#: admin-options/admin.php:428
+msgid "Select the text color, of each section of footer."
+msgstr ""
+
+#: admin-options/admin.php:433
+msgid "Links Color of Footer"
+msgstr ""
+
+#: admin-options/admin.php:434
+msgid "Select the color of all links of footer."
+msgstr ""
+
+#: admin-options/admin.php:439
+msgid "Links Hover Color of Footer"
+msgstr ""
+
+#: admin-options/admin.php:440
+msgid "Select the color of hover state of all links of footer."
+msgstr ""
+
+#: admin-options/admin.php:445
+msgid "Borders Color of Footer"
+msgstr ""
+
+#: admin-options/admin.php:446
+msgid "Select the color all borders of footer."
+msgstr ""
+
+#: admin-options/admin.php:451
+msgid "Background Color of Flickr Thumbs"
+msgstr ""
+
+#: admin-options/admin.php:452
+msgid "Select the background color of flickr thumbs, on footer."
+msgstr ""
+
+#: admin-options/admin.php:457
+msgid "Border Color of Flickr Thumbs"
+msgstr ""
+
+#: admin-options/admin.php:458
+msgid "Select the border color of flickr thumbs, on footer."
+msgstr ""
+
+#: admin-options/admin.php:544
+msgid "settings saved"
+msgstr ""
+
+#: admin-options/admin.php:558
+msgid "settings reset"
+msgstr ""
+
+#: admin-options/admin.php:652
+msgid "To easily use the "
+msgstr ""
+
+#: admin-options/admin.php:911
+msgid "Reset"
+msgstr ""
+

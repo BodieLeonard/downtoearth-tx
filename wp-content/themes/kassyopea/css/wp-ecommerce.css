@@ -1,0 +1,173 @@
+/*
+    CSS file for WP e-commerce
+*/
+
+
+#topbar ul li.cart { background-image:url('../images/icons/cart.png'); position:relative; }
+#topbar ul li.cart div.cartcount { cursor:pointer; line-height:26px; }
+
+
+/* ====================== START SMALL CART ====================== */
+#small-cart .cart-message, #small-cart p.empty { margin-bottom:10px; }
+#small-cart .cart-message, #small-cart .small-cart-links, #small-cart p.empty { padding:0 10px; }
+#small-cart p { margin:0; }
+#small-cart table { width:100%; border:0; margin:0 0 10px; }
+#small-cart td, #small-cart th { padding:0 10px; line-height:28px; }
+#small-cart td {text-align:left;}
+#small-cart td.text-right {text-align:right;}
+#small-cart th#product,#small-cart th#quantity,#small-cart th#price {font-weight:bold;}
+#small-cart td { background-color:#f1efef; }
+#small-cart tfoot .topmargin td { padding-top:10px; }
+#small-cart tfoot .label { text-align:right; font-weight:bold; } 
+#small-cart .small-cart-links form { display:inline; }
+#small-cart .small-cart-links a { font-size:12px; padding-left:24px; background:left center no-repeat; text-transform:none; line-height:16px; display:block; }
+#small-cart .small-cart-links a.checkout-link, #small-cart .small-cart-links a.visitshop { background-image:url('../images/icons/check.png'); float:left; }
+#small-cart .small-cart-links a.emptycart { background-image:url('../images/icons/arrow.png'); float:right; }
+/* ====================== END SMALL CART ====================== */
+
+
+
+/* ====================== START SIDEBARS ====================== */
+body.wpsc #content .sidebar h3, body.wpsc #content .sidebar h2 { font-size:24px; }
+.sidebar .wpsc_categories li, .widget_price_range a { display:block; font-size:13px; padding:0 0 0 24px; background:url('../images/icons/folder.png') left 7px no-repeat; border:0; }
+.sidebar .wpsc_categories li a:hover, .widget_price_range a:hover { text-decoration:none; }
+.sidebar .wpsc_categorisation_group h6 { text-transform:none; margin:0 0 5px; }
+.widget_price_range a { background-image:url('../images/icons/arrow-circle.png'); line-height:24px; }
+.widget_price_range br { display:none; }
+
+/*special products*/
+#product-specials div { font-size:11px; line-height:1.8em; }
+#product-specials a.wpsc_product_title { font-size:13px; font-weight:normal !important; }
+#product-specials img { padding:5px; border:1px solid #dfdfdf; margin:10px 0; }
+#product-specials select { border:1px solid #cbc9c9; background-color:#fef4e9; padding:5px; margin:0.5em 0; }
+#product-specials form input { border:1px solid #acabab; padding:5px; color:#0e0e0e; text-align:center; background:url('../images/bg/gradient-update-button.png') top repeat-x; margin-top:5px; cursor:pointer; }
+#product-specials form input:hover { background-position:0 -31px; color:#0e0e0e !important; }
+#product-specials .pricedisplay, #product-specials .pricedisplay .oldprice { font-size:13px; color:#555; font-weight:bold; }
+#product-specials .pricedisplay .oldprice { font-size:11px; text-decoration:line-through; }
+/* ====================== END SIDEBARS ====================== */     
+
+
+
+/* ====================== START SHOP ====================== */
+.special-products { background:url('../images/bg/shadow-shop.png') no-repeat center top; border-top:1px solid #D4D4D4; border-bottom:1px solid #D4D4D4; margin:30px 0 0; }
+.special-products .description { width:200px; float:left; margin-right:20px; }
+.products ul.list-products { margin:10px 0 0; list-style:none; }
+.products ul.list-products li { width:164px; margin:0 25px 45px 0; float:left; text-align:center; }
+.products ul.list-products li:last-child, .products li.last { margin-right:0 } 
+.products ul.list-products li img { width:143px; height:143px; padding:10px; background:#fef4e9; border:1px solid #D4D4D4; margin-right:0 !important; float:none !important; }
+.products ul.list-products li .thumb-shadow { width:163px; height:20px; background:url('../images/bg/shadow-thumb-product.png'); margin-top:-9px; }
+.price { font-family:'Arial'; font-size:36px; font-weight:bold; padding-top:10px; color:#e4927f; text-align:right; }
+.price sup { font-size:16px; margin-left:5px; }
+.products ul.list-products li .wpsc_description { text-align:left; }
+.products ul.list-products li .wpsc_description p { font-size: 12px; line-height: 1.8em; }
+.products ul.list-products li .title-product { font-size:15px; margin-bottom:0; }
+.products ul.list-products li .price { text-align:center; }
+.special-products .products { margin:0; }
+.special-products .products ul.list-products { margin-top:35px; }
+.products ul.list-products li .product-image { position:relative; }
+
+/*sale icons*/
+.sale-icon-big, .sale-icon-small { position:absolute; z-index:10; background:center no-repeat; text-indent:-9999px; }
+.sale-icon-big   { width:95px; height:98px; right:10px; top:-30px; background-image:url('../images/icons/offer.big.png'); }
+.sale-icon-small { width:45px; height:46px; right:-12px; top:-12px; background-image:url('../images/icons/offer.png'); }
+
+/*breadcrumbs*/
+.wpsc-breadcrumbs { margin-bottom:20px; }
+/* ====================== END SHOP ====================== */   
+
+
+/* ====================== START PRODUCT PAGE ====================== */
+#content .productdisplay img.product_image { padding:8px; border:1px solid #D4D4D4; }
+#content .productdisplay .prodtitles img, #content .productdisplay img.product_image { float:none; }
+
+/*description*/
+#content .productdisplay div.producttext { padding-left:30px; }                                                      
+#content .productdisplay div.producttext h2.prodtitles, #content .productdisplay div.producttext h4, #content .productdisplay div.producttext .rating strong { margin:0 0 25px; font-family:'Lucida Sans'; text-transform:none; }
+#content .productdisplay div.producttext h2.prodtitles, #content .productdisplay div.producttext .rating strong { font-size:18px; }
+#content .productdisplay div.producttext h4 { font-size:14px; margin:20px 0 10px; }
+#content .productdisplay div.producttext .custom_meta { margin-bottom:20px; }
+
+/*rating*/
+#content .productdisplay div.producttext .rating { margin:50px 0 10px; padding:10px 0; border-top:1px solid #cbc9c9; border-bottom:1px solid #cbc9c9; }
+#content .productdisplay div.producttext .rating .votetext, #content .productdisplay div.producttext .rating .wpsc_product_rating { height:20px; float:right; }
+#content .productdisplay div.producttext .rating strong { float:left; margin-bottom:0px; margin-right:10px; }
+#content .productdisplay div.producttext .rating .product_average_vote, #content .productdisplay div.producttext .rating .product_user_vote { height:20px; }
+#content .productdisplay div.producttext .rating .product_average_vote { padding-bottom:20px; }
+#content .productdisplay div.producttext .rating img.goldstar { margin-right:0; float:none; }
+#content .productdisplay div.product_user_vote .star { display:inline; }
+
+/*price*/
+#content .productdisplay div.producttext .price-text { border-bottom:1px solid #cbc9c9; padding-bottom:10px; }
+#content .productdisplay div.producttext .price-text h2 { float:left; padding:20px 0 0; margin:0; }
+#content .productdisplay div.producttext .price-text .price { float:right; padding:0; line-height:24px; width:300px; }
+#content .productdisplay div.producttext .price-text .price .price-value { line-height:54px; }
+#content .productdisplay div.producttext .price-text span.oldprice{text-decoration: line-through;font-size:40%;margin-left:10px;} 
+#content .productdisplay div.producttext .price-text p.pricesave { color:#8E8D8D; margin-bottom:0; }
+
+/*form*/
+#content .productdisplay div.producttext form { margin-top:30px; }
+#content .productdisplay div.producttext form label { width:75px; float:left; }
+#content .productdisplay div.producttext form input, #content .productdisplay div.producttext form select { border:1px solid #cbc9c9; background-color:#fef4e9; padding:5px; }
+#content .productdisplay div.producttext .custom_text, #content .productdisplay div.producttext .custom_file { width:190px; float:left; margin-right:20px; }
+#content .productdisplay div.producttext .custom_text h2, #content .productdisplay div.producttext .custom_file h2 { margin-top:0px; }
+#content .productdisplay div.producttext .last { margin-right:0; }
+#content .productdisplay div.producttext .more-button { margin-top:40px; }
+#content .productdisplay div.producttext .buy-button .more-button { margin-top:0; }
+#content .productdisplay div.producttext .fields { float:left; }
+#content .productdisplay div.producttext .buy-button { float:right; }
+#content .productdisplay div.producttext .wpsc_buy_button_container input { background-color:inherit; border:0; padding:5px 35px 5px 5px; }     
+
+/*fancy notification*/
+#fancy_notification_content br { display:none; }
+
+/*also bought*/
+.wpsc_also_bought_item img { padding:0 !important; }
+/* ====================== END PRODUCT PAGE ====================== */       
+                                                                 
+                                                                 
+
+/* ====================== START CHECKOUT PAGE ====================== */
+#content .productcart { border-bottom:1px solid #acabab; }
+#content .productcart tr { background-color:#e4927f; }
+#content .productcart th { line-height:50px; color:#0e0e0e; font-size:15px; }
+#content .productcart tbody tr { background:#fff url('../images/bg/gradient-checkout.png') top center no-repeat; border-top:1px solid #acabab; }
+#content .productcart td { text-align:left; padding:10px 0; font-size:15px; }
+#content .productcart tbody a { color:#696969; }
+#content .productcart tbody a:hover { color:#383838; }
+#content .productcart tbody td.imagepreview img { width:65px; height:65px; padding:3px; border:1px solid #acabab; }
+#content .productcart tbody td.qty input, #content .productcart tbody td.qty .update-qty-button { width:55px; height:21px; border:1px solid #acabab; padding:5px; color:#0e0e0e; text-align:center; }
+#content .productcart tbody td.qty .update-qty-button { background:url('../images/bg/gradient-update-button.png') top repeat-x; color:inherit !important; height:31px !important; margin-top:5px; cursor:pointer; }
+#content .productcart tbody td.qty .update-qty-button:hover { background-position:0 -31px; color:#0e0e0e !important; }
+#content .productcart .price-product { text-align:right; padding-right:80px; }
+#content .productcart tbody td.removebutton .more-button { margin:0; }
+#content .totals-price { margin-top:40px; }
+#content .totals-price tbody td { font-weight:normal; }
+#content .totals-price tfoot td { background-color:#f7f7f7; text-align:left; }
+#content .totals-price tfoot td .checkout-total { color:#9c0f06; }
+#content .totals-price td.price-values { padding-right:240px; text-align:right; }
+#content .next-step { float:right; }
+#change_country input, #change_country select { background:#fff; border:1px solid #acabab; padding:5px; }
+#shipping_cart { position:relative; }
+#shipping_cart .step { width:100%; height:auto; position:relative; }
+span.pricedisplay {float:none;}
+
+/*widths*/                                                      
+#content .productcart .imagepreview 	{ width:120px; }
+#content .productcart .qty 				{ width:140px; }   
+#content .productcart .update-qty-button{ width:67px !important; } 
+#content .productcart .price-product 	{ width:140px; }    
+#content .productcart .removebutton 	{ width:160px; }
+
+/*registration*/
+.wpsc_checkout_table, .wpsc-user-account table { width:100%; border:0; }
+.wpsc_checkout_table { margin-bottom:0; }
+.wpsc_checkout_table h3, .wpsc_checkout_table h4, .wpsc-user-account table h3, .wpsc-user-account table h4 { font-size:170%; margin:0; }
+.wpsc_checkout_table td, .wpsc-user-account table td { padding:0 0 14px; }
+.wpsc_checkout_table td, .wpsc_checkout_table th, .wpsc-user-account table td, .wpsc-user-account table th { background-color:#fff; border:0; }                          
+.wpsc_checkout_table td label, .wpsc-user-account table label { width:200px; }
+.wpsc_checkout_table td input, .wpsc_checkout_table td textarea, .wpsc_checkout_table td select, 
+.wpsc-user-account table td input, .wpsc-user-account table td textarea, .wpsc-user-account table td select { padding:8px; border:1px solid #acabab; }
+
+/*user profile*/
+.user-profile-links a { font-size:13px; }
+/* ====================== END CHECKOUT PAGE ====================== */

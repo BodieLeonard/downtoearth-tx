@@ -1,0 +1,512 @@
+-------------------- VER 1.7 ------------------------
+Fixed: notices messages shown after update wordpress to 3.4
+Fixed: limit of accordion slider items and in [faq] and [testimonials] shortcodes
+Fixed: sample data installer
+Fixed: shop layout retrieving in the pages
+Fixed: template for the portfolio single post pages
+Fixed: extra description in the products list page and also double categories
+Fixed: removed the extra sidebar in the single product page
+Fixed: menu navigation when the theme is installed
+
+UPDATE
+accordion-slider.php
+admin-options/install/install.php
+admin-options/notify_update.php
+css/custom.php
+css/wp-ecommerce.css
+fonts/delicious.font.js
+footer.php
+header.php
+home-store.php
+home-testimonialslider.php
+home.php
+includes/functions.php
+includes/sendemail.php
+includes/shortcodes.php
+js/jquery.custom.js
+languages/it_IT.mo
+languages/it_IT.po
+loop-page.php
+page.php
+portfolio-3columns.php
+portfolio-slider.php
+single-bl_portfolio.php
+taxonomy-wpsc_product_category.php
+wpsc-products_page.php
+wpsc-single_product.php
+style.css
+
+
+
+
+
+-------------------- VER. 1.6.2 ---------------------
+1) Fixed the theme options panel, in the version 3.3 of wordpress
+
+Updated                                            
+(change n.1)		/admin-options/include/functions.css
+(change n.1)		/admin-options/yiw_panel.php
+
+
+-------------------- VER. 1.6.1 ---------------------
+1) Improved the import/export panel
+2) Fixed some bugs
+3) Fix the slashes in the slider flash
+4) Added the multiselect in the contact form
+5) Added template for the portfolio categories
+6) Added the ability to know the IP of the user witch send the email from the contact form, by adding the shortcode %ipaddress% in the body configuration.
+7) Fix bug with the theme options menu in the admin bar.
+8) Added way to stop the spam from the contact forms.
+9) Added new template store, where you are able to have the page with smaller sidebar
+
+Update
+(change n.4)		/admin-options/include/contact_add.php
+(change n.1)		/admin-options/install/install.php
+(change n.2)		/admin-options/options/general-options.php
+(change n.2,7)		/admin-options/yiw_panel.php
+(change n.2,6,8)	/includes/sendemail.php
+(change n.2)		/includes/shortcodes.php
+(change n.2)		/js/jquery.custom.js
+(change n.3)		/piecemaker/piecemaker.php
+(change n.2)		/404.php
+(change n.2)		/functions.php
+(change n.2)		/header.php
+(change n.2)		/loop-page.php
+(change n.2,5)		/portfolio-3columns.php
+(change n.2)		/slider-home.php
+(change n.2,8)		/style.css
+(change n.2)		/taxonomy-wpsc_product_category.php
+(change n.2)		/wpsc-shopping_cart_page.php
+
+Added
+(change n.9)		/store.php
+(change n.5)		/taxonomy-category-project.php
+
+
+
+-------------------- VER. 1.6 ---------------------
+1) Fixed the homepage settings with the page for blog.
+2) Fixed some bugs with multisites.
+3) Fixed portfolio 3 columns alignment.
+4) Fixed [toggle] shortcode bugs.
+5) Fixed bug with inputs autoclear.
+6) New option for to select the default layout page.
+7) Added new antispam field on the contact form.
+8) Improved ecommerce styles.
+9) Fixed number of items for testimonials.
+10) Fixed bug with update of price after varations selecting.
+11) Fixed slider cycle when empty.
+12) Added support to gold cart.
+
+Update
+(change n.2)		/admin-options/include/contact_add.php
+(change n.6)		/admin-options/options/general-options.php
+(change n.6)		/admin-options/options/contact-options.php
+(change n.7)		/admin-options/metaboxes.php
+(change n.2)		/css/custom.php
+(change n.6,12)		/includes/functions.php
+(change n.7)		/includes/sendemail.php
+(change n.4)		/includes/shortcodes.php
+(change n.4,5)		/js/jquery.custom.js
+(change n.2)		/piecemaker/piecemaker.php
+(change n.6)		/blog-home.php
+(change n.6)		/blog.php
+(change n.8)		/functions.php
+(change n.6)		/gallery.php
+(change n.8)		/header.php
+(change n.1)		/home.php
+(change n.6)		/home-store.php
+(change n.6)		/page.php
+(change n.6)		/portfolio.php
+(change n.3)		/portfolio-3columns.php
+(change n.6)		/single-wpsc-products.php.php
+(change n.11)		/slider-home.php
+(change n.3,4,11,12)	/style.css
+(change n.8)		/wp-ecommerce.css
+(change n.6,12)		/wpsc-default.css
+(change n.6,12)		/wpsc-products_page.php
+(change n.6,12)		/wpsc-single_product.php
+(change n.8)		/wpsc-shopping_cart_page.php
+
+Add
+(change n.2)		/includes/mtx-safe-wp-load.php
+
+
+
+-------------------- VER. 1.5.2 ---------------------
+1) Fixed shortcode [table] e [toggle] (view support for changes).
+2) Fixed width container for page single product.
+3) Fixed incompatibility with code of other plugins.
+4) Fixed alignment of table account page.
+5) Added new template for category products page.
+6) Added lightbox for wordpress gallery (when the link of each image is to file image and not page attachment).
+7) Improve single template for portfolio, like a page (adding the same metabox used for pages).
+8) Update the nivo slider library.
+
+Update
+(change n.7)		/admin-options/metaboxes.php
+(change n.3)		/admin-options/yiw_panel.php
+(change n.2)		/css/wp-ecommerce.css
+(change n.3)		/includes/colors.php
+(change n.3,6)		/includes/functions.php
+(change n.1)		/includes/shortcodes.php
+(change n.1)		/js/jquery.custom.js
+(change n.8)		/js/jquery.nivo.slider.pack.js
+(change n.5)		/home.php
+(change n.7)		/home-store.php
+(change n.7)		/loop-gallery.php
+(change n.7)		/slider-home.php
+(change n.1)		/style.css
+(change n.2)		/wpsc-default.css
+
+Add
+(change n.7)		/single-bl_portfolio.php
+(change n.5)		/taxonomy-wpsc_product_category.php
+
+
+
+-------------------- VER. 1.5.1 ---------------------
+1) Added compatibility with wordpress 3.2
+2) Fix bug with highlight titles.
+
+Update
+(change n.1) /js/jquery.cycle.all.min.js
+(change n.1) /js/jquery.hrzAccordion.js
+(change n.1) /js/jquery.nivo.slider.pack.js
+(change n.2) /style.css
+
+
+-------------------- VER. 1.5 ---------------------
+1) Fix important bug with 404 error on single page product
+2) Remove a space more on header of theme.
+3) Add some hook for each shortcode, to improve customization of all shortcodes.
+4) Update the version of style theme.
+5) Upgrade prettyphoto library to 3.1.2 version.
+6) Fix a bug with update advise.
+7) Fix default number of items of testimonials slider.
+8) Fix bug with front page display configuration.
+
+Update
+(change n.5)		/admin-options/options/general-options.php
+(change n.1)		/admin-options/backend.php
+(change n.6)		/admin-options/notify_update.php
+(change n.5)		/css/prettyPhoto.css
+(change n.5)		/includes/sendemail.php
+(change n.3)		/includes/shortcodes.php
+(change n.5)		/js/jquery.prettyPhoto.js
+(change n.2)		/404.php
+(change n.2)		/archive.php
+(change n.2)		/blog.php
+(change n.2)		/category.php
+(change n.5)		/footer.php
+(change n.5)		/functions.php
+(change n.2)		/gallery.php
+(change n.5)		/header.php
+(change n.7)		/home-testimonialslider.php
+(change n.8)		/home.php
+(change n.2)		/index.php
+(change n.5)		/loop.php
+(change n.2)		/page.php
+(change n.2)		/portfolio.php
+(change n.2)		/search.php
+(change n.2)		/single-wpsc-product.php
+(change n.2)		/single.php
+(change n.4)		/style.css
+
+Added
+(change n.5)		/images/prettyPhoto/default
+(change n.5)		/images/prettyPhoto/default/default_thumb.png
+(change n.5)		/images/prettyPhoto/default/loader.gif
+(change n.5)		/images/prettyPhoto/default/sprite.png
+(change n.5)		/images/prettyPhoto/default/sprite_next.png
+(change n.5)		/images/prettyPhoto/default/sprite_prev.png
+(change n.5)		/images/prettyPhoto/default/sprite_x.png
+(change n.5)		/images/prettyPhoto/default/sprite_y.png
+(change n.8)		/blog-home.php
+
+
+-------------------- VER. 1.4 ---------------------
+1) Fix some bugs with page template of plugin.
+2) Added missing file.
+3) Improved admin panel.
+4) Add attribute 'target' to socials shortcode.
+5) Improve query of sidebar and footer.
+6) Fix bug on send email.
+7) Update nivo slider, jcarousel and cycle jquery libraries.
+8) Improved code quality.
+
+Update
+(change n.3)		/admin-options/dashboard.php
+(change n.3,8)		/admin-options/yiw_panel.php
+(change n.1)		/css/custom.php
+(change n.1)		/css/ie.css
+(change n.1)		/css/wp-ecommerce.css
+(change n.7)		/js/jquery.cycle.all.min.js
+(change n.7)		/js/jquery.jcarousel.min.js
+(change n.7)		/js/jquery.nivo.slider.pack.js
+(change n.8)		/includes/widgets/featured_projects.php
+(change n.8)		/includes/functions.php
+(change n.6,8)		/includes/sendemail.php
+(change n.4)		/includes/shortcodes.php
+(change n.5)		/footer.php
+(change n.1)		/functions.php
+(change n.1,7,8)	/header.php
+(change n.1,8)		/home.php
+(change n.1)		/home-store.php
+(change n.1)		/loop-page.php
+(change n.1)		/page.php
+(change n.1,5)		/sidebar.php
+(change n.1)		/single-wpsc-product.php
+(change n.1)		/style.css
+(change n.8)		/wpsc-category-widget.php
+(change n.1,8)		/wpsc-products_page.php
+(change n.1)		/wpsc-single_product.php
+(change n.8)		/wpsc-shopping_cart_page.php
+
+Added
+(change n.7)		/css/nivo-slider.css
+(change n.2)		/js/contact.js 
+
+
+-------------------- VER. 1.3.2 --------------------
+1) Fixed for a sentence.
+2) Fixed the width of featured image's shadow, when the width is more then content container.
+3) Improved and fix some bugs contact form.
+4) Improved the loops.
+5) Fix bug on home with no slider.
+
+Update
+(change n.1)		/admin-options/include/contact_add.php
+(change n.3)		/admin-options/options/contact-options.php
+(change n.3)		/includes/sendemail.php
+(change n.3,4)		/includes/shortcodes.php
+(change n.4)		/accordion-slider.php
+(change n.4,5)		/home.php
+(change n.2,4)		/loop.php
+(change n.4)		/loop-page.php
+(change n.4)		/portfolio-slider.php
+(change n.4)		/portfolio-3columns.php
+(change n.2)		/style.css
+
+-------------------- VER. 1.3.1 --------------------
+1) Fix bug with categories product, when the home store is configured with only list of categories.
+2) Added LinkedIn icons.
+3) Fix bug with testimonial widget on footer, into single product page template.
+4) Added new option into panel, to be able to change label of portfolio's button.
+5) Update localization.
+6) Fix bug with number of items for portfolio slider.
+7) FIx bug with shopping cart page.
+8) Add missing image for button shortcode.
+9) Add compatibility to child theme of Kassyopea theme.
+10) Add new metabox for wp dashboard, with last topics of support forum.
+11) Fix bug with IE7
+
+Update
+(change n.4)		/admin-options/options/general-options.php
+(change n.11)		/css/ie7.css
+(change n.9)		/includes/colors.php
+(change n.9)		/includes/fonts.php
+(change n.9,10)		/includes/functions.php
+(change n.5)		/languages/default.mo
+(change n.5)		/languages/default.po
+(change n.5)		/languages/it_IT.mo
+(change n.5)		/languages/it_IT.po
+(change n.9)		/functions.php
+(change n.4)		/portfolio-3columns.php
+(change n.6)		/portfolio-slider.php
+(change n.3)		/single-wpsc-product.php
+(change n.2,3,4)	/style.css
+(change n.5)		/wpsc-grid_view.php
+(change n.1,3)		/wpsc-products_page.php
+(change n.7)		/wpsc-shopping_cart_page.php
+
+Add
+(change n.10)		/admin-options/dashboard.php
+(change n.2)		/images/icons/linkedin.png
+(change n.2)		/images/icons/small-socials/linkedin_small.png
+(change n.2)		/images/overlay-button.png
+
+
+-------------------- VER. 1.3 --------------------
+1) Fix template manage for new version (3.8.3) of plugin.
+2) Fix bug of empty plugin category.
+3) Fix bug of font paths and white color, for some servers.
+4) Other fixes.
+5) Add new words and sentences for localizzation.
+
+Update
+(change n.4)		/admin-options/metaboxes.php
+(change n.4)		/css/ie7.css
+(change n.2,4)		/includes/functions.php
+(change n.3)		/includes/fonts.php
+(change n.3)		/includes/colors.php
+(change n.4,5)		/includes/shortcodes.php
+(change n.1,2)		/style.css
+(change n.4,5)		/header.php
+(change n.1)		/home.php
+(change n.1)		/home-store.php
+(change n.4)		/home-testimonialslider.php
+(change n.1)		/page.php
+(change n.5)		/wpsc-cart_widget.php
+(change n.5)		/wpsc-grid_view.php
+(change n.5)		/wpsc-list_view.php
+(change n.1,2,4,5)	/wpsc-products_page.php
+(change n.5)		/wpsc-shopping_cart_page.php
+(change n.5)		/wpsc-single_product.php
+(change n.5)		/wpsc-transaction_results.php
+(change n.5)		/wpsc-user-log.php
+
+
+-------------------- VER. 1.2.2 --------------------
+1) Fix some bugs.
+
+(change n.1)		/single-wpsc-product.php
+(change n.1)		/wpsc-products_page.php
+(change n.1)		/changelog.txt
+(change n.1)		/style.css
+(change n.1)		/home-store.php
+(change n.1)		/includes/shortcodes.php
+(change n.1)		/loop-page.php
+(change n.1)		/wpsc-cart_widget.php
+(change n.1)		/admin-options/yiw_panel.php
+
+
+-------------------- VER. 1.2.1 --------------------
+1) Fix some bugs.
+
+Update
+(change n.1)		/admin-options/backend.php
+(change n.1)		/admin-options/metaboxes.php
+(change n.1)		/admin-options/notify_update.php
+(change n.1)		/header.php
+(change n.1)		/home.php
+(change n.1)		/includes/functions.php
+(change n.1)		/includes/sendemail.php
+(change n.1)		/includes/widgets/icon_text.php
+(change n.1)		/includes/widgets/quick_contact.php
+(change n.1)		/includes/widgets/testimonials.php
+(change n.1)		/js/jquery.custom.js
+(change n.1)		/style.css
+(change n.1)		/wpsc-shopping_cart_page.php
+(change n.1)		/wpsc-single_product.php
+
+
+-------------------- VER. 1.2 --------------------
+1) Fix bug with testimonials widget on footer.
+2) Fix bug with 'No Font' choice.
+3) Added third level of menu navigation on header.
+4) Fix bug with color scheme choice.
+5) Code improvment.
+6) Fix bug with cufon, when plugin is inactive.
+7) Fix bug with accordion slider.
+8) Add new options to admin panel.
+9) Fix but with color on sidebar shop.
+10) Fix bug with text on accordion slider.
+11) Add new contact manage system, to configure the contact form of 'Contact' template.
+12) Fix bug with sidebar on home page.
+13) Remove double 'Home Store' template.
+14) Add new system to import or export theme data.
+15) Add compatibility with IE7.
+16) Add tab shortcode.
+
+Update
+(change n.11)		/admin-options/include/functions.css
+(change n.11)		/admin-options/include/rm_script.js
+(change n.5,8)		/admin-options/options/general-options.php
+(change n.11)		/admin-options/widgets/quick_contact.php
+(change n.11)		/admin-options/arrays.php
+(change n.5)		/admin-options/metaboxes.php
+(change n.5)		/admin-options/notify_update.php
+(change n.14)		/admin-options/panel_functions.php
+(change n.11)		/admin-options/yiw_panel.php
+(change n.9)		/css/custom.php
+(change n.15)		/css/ie7.css
+(change n.4,5)		/includes/colors.php
+(change n.5)		/includes/fonts.php
+(change n.11)		/includes/sendemail.php
+(change n.1,16)		/includes/shortcodes.php
+(change n.1)		/includes/widgets/testimonials.php
+(change n.11)		/includes/widgets/quick_contact.php
+(change n.3,11)		/js/jquery.custom.js
+(change n.10)		/accordion-slider.php
+(change n.5)		/archive.php
+(change n.5)		/blog.php
+(change n.5)		/category.php
+(change n.5)		/extra-content.php
+(change n.5,7)		/footer.php
+(change n.5)		/footer-big.php
+(change n.5)		/footer-centered.php
+(change n.5)		/footer-small.php
+(change n.5,8,11,14)	/functions.php
+(change n.2,3,5,6)	/header.php
+(change n.5,12)		/home.php
+(change n.5)		/index.php
+(change n.5)		/page.php
+(change n.1)		/loop-page.php
+(change n.5)		/search.php
+(change n.5)		/sidebar.php
+(change n.5)		/single.php
+(change n.1)		/single-wpsc-product.php
+(change n.5)		/shortcodes.php
+(change n.1,3,8,9,11,15)/style.css
+(change n.5)		/wpsc-cart_widget.php
+(change n.4)		/wpsc-default.css
+(change n.1)		/wpsc-single_product.php
+
+Add
+(change n.11)		/admin-options/include/contact_add.php
+(change n.14)		/admin-options/install
+(change n.14)		/admin-options/install/install.php
+(change n.14)		/admin-options/install/install_panel.php
+(change n.11)		/admin-options/options/contact-options.php
+(change n.5)		/includes/functions.php
+(change n.5)		/sidebar-blog.php
+
+Delete
+(change n.13)		/home-store-template.php
+(change n.11)		/contact.php
+
+
+
+
+-------------------- VER. 1.1 --------------------
+1) Fix bug with recent posts and popular posts widgets.
+2) Added update notify on wp admin panel.
+3) Fix the visualizaction for video on jquery slider.
+4) Formatting transaction result page.
+5) Fix bug on piecemaker.
+6) Riallocated some files, for more organizaction.
+7) Added compatibility to WP e-commerce plugin version 3.8 and deprecated 3.8 lower versions for theme.
+8) Fix bug with color customize.
+9) Added 'Play' and 'Pause' icons to jQuery slider.
+10) Fix bug with reply comment.
+11) Deleted 'Store' template.
+12) Added new checkbox below page content textarea, to can remove the 'wpautop' filter to main content of page.
+13) Fix bugs on some shortcodes.
+14) Correct 404 Page Template.
+
+Update
+(change n.12) 		/admin-options/metaboxes.php
+(change n.2) 		/admin-options/notify_update.php
+(change n.8) 		/includes/colors.php
+(change n.13) 		/includes/metaboxes.php
+(change n.13) 		/includes/shortcode.php
+(change n.13) 		/js/jquery.custom.js
+(change n.14) 		/404.php
+(change n.10)		/comments.php
+(change n.13)		/extra-content.php
+(change n.2,13)		/functions.php
+(change n.14)		/header.php
+(change n.12)		/loop-page.php
+(change n.1) 		/shortcodes.php   
+(change n.9)		/slider-home.php
+(change n.3,4,9,10,13,14) 	/style.css
+(change n.5)		/piecemaker/piacemaker.php
+
+Added
+(change n.5)		/includes/mimetype.php    
+(change n.9)		/images/icons/slider-pause.png
+(change n.9)		/images/icons/slider-play.png
+
+Deleted
+(change n.11)		/store.php

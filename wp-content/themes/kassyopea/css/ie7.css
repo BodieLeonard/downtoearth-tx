@@ -1,0 +1,8 @@
+#header {position:relative;z-index:10000}
+.email-newsletter { width:190px !important; }
+form.newsletter-form label span { margin-top:11px; }
+#content .special-products .thumb-shadow { margin-top:-4px !important; }
+#footer { padding-bottom:10px; }
+
+#nav { background:transparent!important; border:0!important; }
+#nav ul.level-1 { outline:1px solid #eeeeee; }    
